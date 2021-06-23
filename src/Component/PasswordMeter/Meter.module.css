@@ -1,0 +1,11 @@
+.main{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.main div{
+    width: 5%;
+    background: grey;
+    height: 5px;
+    margin: 2px;
+}
