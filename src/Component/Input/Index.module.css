@@ -1,0 +1,37 @@
+.main{
+    width: fit-content;
+    margin: 20px auto;
+    height: fit-content;
+    position: relative;
+}
+.main > input{
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* margin: 10vh; */
+    color: grey;
+}
+.main > input:focus{
+    border: 3px solid blue;
+}
+.main > div:nth-child(2){
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    color: grey;
+    font-size: 22px;
+}
+.main > div:nth-child(3) {
+    margin: 3px;
+    color: red;
+    width: fit-content;
+    text-align: left;
+}
+.main > div:nth-child(4){
+    position: relative;
+    left: 250px;
+    top: -35px;
+}
