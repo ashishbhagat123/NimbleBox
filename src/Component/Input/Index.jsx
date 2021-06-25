@@ -38,11 +38,11 @@ const Input = ({
                     autoComplete="off"
                     onChange={(e) => handleInput(e)}
                 />
-                {icon && <div>{icon}</div>}
+                {/* {icon && <div>{icon}</div>} */}
                 <div>{showError && <span>{errorMessege}</span>}</div>
-                <div>
+                {/* <div>
                     <StrengthMeter />
-                </div>
+                </div> */}
             </div>
         </>
     );
