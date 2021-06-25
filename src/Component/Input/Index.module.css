@@ -1,37 +1,36 @@
 .main{
-    width: fit-content;
-    margin: 20px auto;
+    width: 100%;
     height: fit-content;
     position: relative;
 }
+.main > div:nth-child(1){
+    position: relative;
+    height: fit-content;
+}
 .main > input{
-    padding: 12px;
-    width: 100%;
-    max-width: 400px;
+    padding: 3.5% 2.5%;
+    width: 95%;
     outline: none;
-    border: 2px solid grey;
-    border-radius: 5px;
-    /* margin: 10vh; */
+    border: none;
+    border-bottom: 2px solid grey!important;
+    margin: 2% 0;
     color: grey;
 }
 .main > input:focus{
-    border: 3px solid blue;
+    border-bottom: 2px solid rgb(204, 181, 53)!important;
 }
-.main > div:nth-child(2){
+.main > div> div{
     position: absolute;
-    left: 200px;
-    top: 10px;
+    left: 400px;
+    top: 8px;
     color: grey;
     font-size: 22px;
+    border: 1px solid black;
 }
-.main > div:nth-child(3) {
+.main > div:nth-child(2) {
     margin: 3px;
     color: red;
     width: fit-content;
     text-align: left;
-}
-.main > div:nth-child(4){
-    position: relative;
-    left: 250px;
-    top: -35px;
+    font-size: 12px;
 }
