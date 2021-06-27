@@ -32,6 +32,6 @@ Some Screenshots of the Application
 ![Small ScreenSize](https://github.com/ashishbhagat123/NimbleBox/blob/master/public/Images/signUp_mobileScreen.png)
 ![Small ScreenSize](https://github.com/ashishbhagat123/NimbleBox/blob/master/public/Images/login_mobileScreen.png)
 
-[Click to go to the Project](https://ashishbhagat-starwars.netlify.app/)
+[Click to go to the Project](https://asish-seriesdb.netlify.app/login)
 
 
