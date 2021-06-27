@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.main > div{
+    width: 5%;
+    height: 40px;
+    color: white;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main > div > svg{
+    color: #FF616D;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main > div{
+        width: 10.5%;
+    }
+}

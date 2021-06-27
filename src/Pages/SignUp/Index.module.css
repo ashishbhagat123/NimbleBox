@@ -1,0 +1,72 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.main > div {
+    width: 50%;
+    height: 100vh;
+}
+
+.main > div:nth-child(1) {
+    background: linear-gradient(
+        to top,
+        #417d73,
+        black
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main .poster_div{
+    height: 100vh;
+    max-height: 100vh;
+}
+.poster_div img{
+    height: 100%;
+    width: 100%;
+}
+.form_wrapper {
+    margin: auto;
+    width: 60%;
+    padding: 3% 5%;
+    background: white;
+}
+.form_wrapper > div:nth-child(1) {
+    margin-bottom: 10%;
+}
+.form_wrapper > div:nth-child(1) h1 {
+    color: #417d73;
+    margin: 2px;
+}
+.form_wrapper > div:nth-child(1) p,
+.form_wrapper > p {
+    color: grey;
+}
+.form_wrapper > span{
+    color: red;
+    font-size: 12px;
+}
+
+.main > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+@media only screen and (max-width: 768px) {
+    .main >div{
+        width: 100%;
+    }
+    .poster_div{
+        display: none;
+    }
+    .form_wrapper{
+        width: 80%;
+    }
+}

@@ -1,10 +1,10 @@
 import './App.css';
-import LogIn from './Pages/Login/Index';
+import Routes from './Routes/Index';
 
 function App() {
   return (
     <div className="App">
-      <LogIn />
+        <Routes />
     </div>
   );
 }

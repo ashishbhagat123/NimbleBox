@@ -19,15 +19,20 @@
 .main > input:focus{
     border-bottom: 2px solid rgb(204, 181, 53)!important;
 }
-.main > div> div{
-    position: absolute;
-    left: 400px;
-    top: 8px;
-    color: grey;
-    font-size: 22px;
-    border: 1px solid black;
+.main > div:nth-child(4){
+    width: 250px;
 }
-.main > div:nth-child(2) {
+.icon{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+} 
+.icon > svg{
+    color: grey;
+    font-size: 30px;
+    cursor: pointer;
+}
+.main > div:nth-child(3) {
     margin: 3px;
     color: red;
     width: fit-content;
