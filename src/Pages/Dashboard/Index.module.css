@@ -1,0 +1,53 @@
+.main {
+    z-index: 5;
+    height: fit-content;
+    min-height: 84vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 11vh;
+    transition: 0.5s;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.search {
+    width: 30%;
+    margin: auto;
+    min-width: 300px;
+    position: fixed;
+    top: 10px;
+    left: 32%;
+    z-index: 100000;
+}
+.loader {
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+    border: 20px dotted goldenrod;
+    border-right-color: orange;
+    border-radius: 100px;
+    animation: rotate 1s infinite linear;
+    top: 200px;
+    right: 50%;
+}
+
+@keyframes rotate {
+    /* 100% keyframe for  clockwise. 
+       use 0% instead for anticlockwise */
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin: auto !important;
+        padding-top: 0;
+    }
+    .search {
+        position: static;
+        margin-top: 80px;
+        transform: translateX(0);
+    }
+}

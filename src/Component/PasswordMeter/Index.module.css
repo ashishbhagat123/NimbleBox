@@ -5,13 +5,14 @@
     justify-content: space-between;
 }
 .main div{
-    width: 5%;
+    width: 20px;
     background: grey;
-    height: 5px;
+    height: 10px;
     margin: 2px;
 }
 .main p{
     font-size: 12px;
     margin: 0;
     margin-right: 5%;
+    color: cadetblue;
 }

@@ -1,0 +1,88 @@
+.main {
+    width: 15%;
+    height: 86vh;
+    background: rgb(49, 46, 46);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 14vh;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 50000;
+    transition: width 0.5s;
+    min-width: 60px;
+}
+
+.main > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    margin: 20% 0;
+    height: 40px;
+}
+.main > div:hover {
+    background: blue;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.main > div > svg {
+    font-size: 30px;
+}
+.main > div > p {
+    font-size: 20px;
+    align-self: left;
+    margin: 0;
+    position: fixed;
+    left: 6%;
+}
+.side {
+    display: none;
+}
+@media only screen and (max-width: 434px) {
+    .main {
+        position: fixed;
+        width: 50% !important;
+        padding-top: 10vh;
+        top: 0;
+        height: 90vh;
+    }
+    .main > div {
+        justify-content: flex-start;
+        margin: 0;
+        height: 10px;
+    }
+    .main > div > p {
+        display: block;
+        margin-left: 10%;
+    }
+    .main > div > svg {
+        margin-right: 120px;
+    }
+    .side {
+        display: block;
+        color: red;
+        position: fixed;
+        font-size: 30px;
+        z-index: 5555555555555;
+        top: 18px;
+        left: 18px;
+    }
+    .container {
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+        z-index: 5000;
+        transition: 0.5s;
+        top: 0;
+        transform: translateX(-100%);
+    }
+    .expand_btn {
+        display: none!important;
+    }
+}
